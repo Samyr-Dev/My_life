@@ -1,0 +1,199 @@
+#Topo h1 {
+
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#Topo img {
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+#Topo nav {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Roboto Mono, monospace;
+    color: #0a0a23;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    #Topo nav {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+#Topo nav a {
+
+    margin: 20px;
+    text-decoration: none;
+    color: #FFD700;
+    background-color: #a80b0b;
+    border-radius: 5px;
+    padding: 5px;
+
+
+}
+
+#Topo nav a:hover {
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+#Geral h2 {
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+}
+
+#Pessoal h2 {
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+}
+
+#Profissão h2 {
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+}
+
+#Resumo h2 {
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+}
+
+#Contato h2 {
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+}
+
+#Geral h3 {
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+#Pessoal h3 {
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+#Profissão h3 {
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+#Resumo table {
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#Contato ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: disc;
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#Contato ul li {
+    text-align: center;
+    align-items: center;
+}
+
+#Contato ul li a {
+    display: inline-block;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+#E-mail {
+    color: #007bff;
+    width: auto;
+}
+
+#Linkedin {
+    color: #0a66c2;
+    width: auto;
+}
+
+#Whatsapp {
+    color: #21c063;
+    width: auto;
+}
+
+
+#E-mail:hover {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#Linkedin:hover {
+    text-decoration: none;
+    background-color: #0a66c2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#Whatsapp:hover {
+    text-decoration: none;
+    background-color: #21c063;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #a80b0b;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #a80b0b;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 0.75em;
+    color: #888;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #888;
+    margin-top: 10px;
+}
