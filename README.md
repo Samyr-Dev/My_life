@@ -26,7 +26,7 @@ O projeto foca na apresentação de conteúdo através de elementos fundamentais
 
 ## 🛠 Tecnologias Utilizadas
 *   **HTML:** Estruturação do conteúdo.
-*   **CSS:** Estilização aplicada diretamente no arquivo HTML.
+*   **CSS:** Estilização aplicada nos elementos HTML.
 *   **VS Code Copilot:** Auxílio no desenvolvimento do código.
 
 ---
@@ -42,8 +42,7 @@ Para visualizar e editar o projeto, você precisará de:
 ## 🔧 Instalação e Configuração
 1. Clone o repositório:
 
-```
-bash
+```bash
 git clone https://github.com/Samyr-Dev/My_life
 ```
 
